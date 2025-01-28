@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.nunito {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-fm {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  .container-fm {
+    input {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+      border: 1px solid black;
+    }
+
+
+    button {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}
+
+/* MAIN */
+main {
+  min-height: 200px;
+}
