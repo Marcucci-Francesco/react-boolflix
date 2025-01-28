@@ -33,6 +33,9 @@ const GlobalProvider = ({ children }) => {
     if (language == 'ja') {
       return 'https://flagsapi.com/JP/shiny/64.png'
     }
+    if (language == 'hi') {
+      return 'https://flagsapi.com/IN/shiny/64.png'
+    }
   }
 
   const value = {
