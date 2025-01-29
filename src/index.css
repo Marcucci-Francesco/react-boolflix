@@ -36,4 +36,37 @@ header {
 /* MAIN */
 main {
   min-height: 200px;
+
+  .card {
+    width: 400px;
+    height: 600px;
+
+    .poster {
+      width: 400px;
+      height: 600px;
+    }
+
+    ul {
+
+      display: none;
+
+      li {
+        list-style: none;
+      }
+    }
+
+    &&:hover {
+      .poster {
+        display: none;
+      }
+
+      ul {
+        display: block;
+      }
+    }
+
+  }
+
+
+
 }
