@@ -18,6 +18,8 @@
 
 /* HEADER */
 header {
+  min-height: 100px;
+
   .container-fm {
     input {
       border-top-left-radius: 6px;
@@ -69,4 +71,51 @@ main {
 
 
 
+}
+
+/* HOMEPAGE */
+
+.carosel {
+  h4 {
+    margin-top: 80px;
+  }
+
+  .card {
+    width: 200px;
+    height: 300px;
+
+    .poster {
+      width: 400px;
+      height: 600px;
+    }
+
+    ul {
+
+      display: none;
+
+      li {
+        list-style: none;
+      }
+    }
+
+    &&:hover {
+      .poster {
+        display: none;
+      }
+
+      ul {
+        display: block;
+      }
+    }
+
+  }
+
+
+}
+
+
+/* FOOTER */
+.footer {
+  min-height: 50px;
+  background-color: black;
 }

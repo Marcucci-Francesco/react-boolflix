@@ -9,7 +9,7 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-black nunito">
+    <header className="bg-black nunito d-flex">
       <div className="container-fm container-fluid d-flex justify-content-between align-items-center py-2">
         <h1 className="text-danger">BOOLFLIX</h1>
         <div className="d-flex">
